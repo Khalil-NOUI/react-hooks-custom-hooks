@@ -1,3 +1,4 @@
+// src/hooks/useDocumentTitle.js
 import { useEffect } from "react";
 
 function useDocumentTitle(pageTitle) {
@@ -5,5 +6,6 @@ function useDocumentTitle(pageTitle) {
     document.title = pageTitle;
   }, [pageTitle]);
 }
+
 
 export default useDocumentTitle;

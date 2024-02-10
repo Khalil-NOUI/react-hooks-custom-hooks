@@ -14,11 +14,7 @@
     "server": "json-server db.json --watch --port=4000 --delay 3000",
     "test": "jest"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",
